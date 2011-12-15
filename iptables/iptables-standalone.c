@@ -39,7 +39,7 @@
 #include "iptables-multi.h"
 
 int
-iptables_main(int argc, char *argv[])
+main(int argc, char *argv[])
 {
 	int ret;
 	char *table = "filter";

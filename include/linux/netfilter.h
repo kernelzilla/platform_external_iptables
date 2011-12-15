@@ -3,6 +3,7 @@
 
 #include <linux/types.h>
 
+#undef __unused
 #include <linux/sysctl.h>
 
 /* Responses from hook functions. */

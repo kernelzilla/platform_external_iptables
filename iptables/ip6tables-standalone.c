@@ -38,7 +38,7 @@
 #include "ip6tables-multi.h"
 
 int
-ip6tables_main(int argc, char *argv[])
+main(int argc, char *argv[])
 {
 	int ret;
 	char *table = "filter";

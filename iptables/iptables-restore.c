@@ -114,7 +114,7 @@ static void free_argv(void) {
 }
 
 int
-iptables_restore_main(int argc, char *argv[])
+main(int argc, char *argv[])
 {
 	struct xtc_handle *handle = NULL;
 	char buffer[10240];

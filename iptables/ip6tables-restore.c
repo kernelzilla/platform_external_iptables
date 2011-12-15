@@ -114,7 +114,7 @@ static void free_argv(void) {
 		free(newargv[i]);
 }
 
-int ip6tables_restore_main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	struct xtc_handle *handle = NULL;
 	char buffer[10240];

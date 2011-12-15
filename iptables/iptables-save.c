@@ -122,7 +122,7 @@ static int do_output(const char *tablename)
  * rule
  */
 int
-iptables_save_main(int argc, char *argv[])
+main(int argc, char *argv[])
 {
 	const char *tablename = NULL;
 	int c;

@@ -9,6 +9,7 @@ LOCAL_C_INCLUDES:= \
 	$(KERNEL_HEADERS) \
 	$(LOCAL_PATH)/../include/
 
+LOCAL_CFLAGS+=-Wno-missing-field-initializers
 # Accommodate arm-eabi-4.4.3 tools that don't set __ANDROID__
 LOCAL_CFLAGS:=-D__ANDROID__
 
@@ -31,6 +32,7 @@ LOCAL_C_INCLUDES:= \
 	$(KERNEL_HEADERS) \
 	$(LOCAL_PATH)/../include/
 
+LOCAL_CFLAGS+=-Wno-missing-field-initializers
 # Accommodate arm-eabi-4.4.3 tools that don't set __ANDROID__
 LOCAL_CFLAGS:=-D__ANDROID__
 

@@ -15,7 +15,6 @@
  *	along with this program; if not, write to the Free Software
  *	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
-#include "config.h"
 #include <ctype.h>
 #include <errno.h>
 #include <fcntl.h>
@@ -61,7 +60,7 @@
 #endif
 #include <getopt.h>
 #include "iptables/internal.h"
-#include "xshared.h"
+#include "../iptables/xshared.h"
 
 #define NPROTO	255
 

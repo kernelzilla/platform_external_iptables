@@ -123,7 +123,7 @@ static int do_output(const char *tablename)
  * :Chain name POLICY packets bytes
  * rule
  */
-int ip6tables_save_main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	const char *tablename = NULL;
 	int c;

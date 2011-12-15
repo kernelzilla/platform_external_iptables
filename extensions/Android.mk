@@ -41,6 +41,7 @@ LOCAL_CFLAGS:=-DNO_SHARED_LIBS=1
 # The $* does not work as expected. It ends up empty. Even with SECONDEXPANSION.
 # LOCAL_CFLAGS+=-D_INIT=lib$*_init
 LOCAL_CFLAGS+=-DXTABLES_INTERNAL
+LOCAL_CFLAGS+=-Wno-missing-field-initializers
 # Accommodate arm-eabi-4.4.3 tools that don't set __ANDROID__
 LOCAL_CFLAGS+=-D__ANDROID__
 
@@ -104,6 +105,7 @@ LOCAL_CFLAGS:=-DNO_SHARED_LIBS=1
 # The $* does not work as expected. It ends up empty. Even with SECONDEXPANSION.
 # LOCAL_CFLAGS+=-D_INIT=lib$*_init
 LOCAL_CFLAGS+=-DXTABLES_INTERNAL
+LOCAL_CFLAGS+=-Wno-missing-field-initializers
 # Accommodate arm-eabi-4.4.3 tools that don't set __ANDROID__
 LOCAL_CFLAGS+=-D__ANDROID__
 
@@ -167,6 +169,7 @@ LOCAL_CFLAGS:=-DNO_SHARED_LIBS=1
 # The $* does not work as expected. It ends up empty. Even with SECONDEXPANSION.
 # LOCAL_CFLAGS+=-D_INIT=lib$*_init
 LOCAL_CFLAGS+=-DXTABLES_INTERNAL
+LOCAL_CFLAGS+=-Wno-missing-field-initializers
 # Accommodate arm-eabi-4.4.3 tools that don't set __ANDROID__
 LOCAL_CFLAGS+=-D__ANDROID__
 

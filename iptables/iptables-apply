@@ -90,12 +90,12 @@ case "$PROGNAME" in
 	(*6*)
 		SAVE=ip6tables-save
 		RESTORE=ip6tables-restore
-		DEFAULT_FILE=/etc/network/ip6tables
+		DEFAULT_FILE=/system/etc/network/ip6tables
 		;;
 	(*)
 		SAVE=iptables-save
 		RESTORE=iptables-restore
-		DEFAULT_FILE=/etc/network/iptables
+		DEFAULT_FILE=/system/etc/network/iptables
 		;;
 esac
 

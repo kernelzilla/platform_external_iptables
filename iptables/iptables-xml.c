@@ -614,7 +614,7 @@ do_rule(char *pcnt, char *bcnt, int argc, char *argv[], int argvattr[])
 }
 
 int
-iptables_xml_main(int argc, char *argv[])
+main(int argc, char *argv[])
 {
 	char buffer[10240];
 	int c;
