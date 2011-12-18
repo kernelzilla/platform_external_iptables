@@ -6,9 +6,9 @@
 *.oo
 *.so
 *.o
-.deps
+.deps/
 .dirstamp
-.libs
+.libs/
 Makefile
 Makefile.in
 
@@ -20,7 +20,7 @@ Makefile.in
 
 
 /aclocal.m4
-/autom4te*.cache
+/autom4te.cache/
 /compile
 /config.guess
 /config.h*
